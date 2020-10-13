@@ -1,12 +1,9 @@
 import React from "react";
-import "./style.css";
 
 function Col(props) {
-    return (
-        <div>
+  const size = props.size.split(" ").map(size => "col-" + size).join(" ");
 
-        </div>
-    );
+  return <div className={size}>{props.children}</div>;
 }
 
 export default Col;

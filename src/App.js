@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume";
+import Resume from "./pages/Resume";
 import Wrapper from "./components/Wrapper";
 
 function App() {
