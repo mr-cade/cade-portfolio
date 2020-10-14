@@ -1,12 +1,16 @@
 import React from "react";
 import "./style.css";
 
-function Container(props) {
-    return (
-        <div>
-
-        </div>
-    );
+function Card(props) {
+  return (
+    <div
+      className="card"
+      style={{
+        backgroundImage: props.image ? `url(${props.image})` : "none"
+      }}
+    >
+    </div>
+  );
 }
 
-export default Container;
+export default Card;

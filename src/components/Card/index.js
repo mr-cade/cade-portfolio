@@ -3,10 +3,14 @@ import "./style.css";
 
 function Card(props) {
     return (
-        <div>
-
-        </div>
+      <div
+        className="card"
+        style={{
+          backgroundImage: props.image ? `url(${props.image})` : "none"
+        }}
+      >
+      </div>
     );
-}
-
-export default Card;
+  }
+  
+  export default Card;

@@ -1,12 +1,8 @@
 import React from "react";
-import "./style.css";
+import "./style.css"
 
 function Row(props) {
-    return (
-        <div>
-
-        </div>
-    );
+  return <div className="row">{props.children}</div>;
 }
 
 export default Row;
