@@ -9,6 +9,7 @@ function Card(props) {
         backgroundImage: props.image ? `url(${props.image})` : "none"
       }}
     >
+        {props.children}
     </div>
   );
 }

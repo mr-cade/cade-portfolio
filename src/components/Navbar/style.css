@@ -5,5 +5,9 @@ nav.navbar.navbar-default {
 
 nav {
   height: 260px;
-  background-color: #e3f2fd;
+  background-color: #5D585C;
 }
+
+.navbar-brand {
+  font-size: 50px;
+} 

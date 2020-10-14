@@ -1,15 +1,33 @@
-.footer {
-    min-height: 100px;
-    background: #E5E5E5;
-    position: relative;
-  }
-  
-  .footer span {
+/* .footer {
+min-height: 100px;
+background: #E5E5E5;
+position: relative;
+} */
+
+.footer span {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 3px;
-    background: #B8B8B8;
-  }
-  
+    background: #5D585C;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px; 
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vh;
+    background: #5D585C;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
