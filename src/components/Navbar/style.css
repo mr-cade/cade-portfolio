@@ -4,7 +4,7 @@ nav.navbar.navbar-default {
   }
 
 nav {
-  height: 260px;
+  height: auto;
   background-color: #5D585C;
 }
 
