@@ -12,19 +12,21 @@ function About() {
 
             </Hero>
             <Container style={{ marginTop: 30 }}>
-                <Card>
+                <Row>
                     <Col size="md-5">
-                        <div className="card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                    <h4>The Early Years</h4>
-                                </div>
-                                <div>
-                                    <p className="card-text">I was born and raised north of Salt Lake in Bountiful, UT. Growing up, I loved to learn, ski, play sports and play videogames with my friends. I was a student at Bountiful High School where I participated in student council. Following high school I attended BYU's Marriott School of Business and majored in Finance.</p>
-                                    <p className="card-text">Shortly after graduating from college, I adopted a puppy who has become my best pal. He's half Bernese Mountain Dog, half Poodle, all bark and no bite.</p>
+                        <Card>
+                            <div className="card">
+                                <div className="card-body">
+                                    <div className="card-title">
+                                        <h4>The Early Years</h4>
+                                    </div>
+                                    <div>
+                                        <p className="card-text">I was born and raised north of Salt Lake in Bountiful, UT. Growing up, I loved to learn, ski, play sports and play videogames with my friends. I was a student at Bountiful High School where I participated in student council. Following high school I attended BYU's Marriott School of Business and majored in Finance.</p>
+                                        <p className="card-text">Shortly after graduating from college, I adopted a puppy who has become my best pal. He's half Bernese Mountain Dog, half Poodle, all bark and no bite.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Card>
                     </Col>
                     <Col size="md-5">
                         <div className="card">
@@ -47,7 +49,7 @@ function About() {
                             </div>
                         </div>
                     </Col>
-                </Card>
+                </Row>
             </Container>
         </div>
     );

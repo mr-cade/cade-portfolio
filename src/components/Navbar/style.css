@@ -6,6 +6,7 @@ nav.navbar.navbar-default {
 nav {
   height: auto;
   background-color: #5D585C;
+  width: 100%;
 }
 
 .navbar-brand {
