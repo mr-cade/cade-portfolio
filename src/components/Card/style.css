@@ -1,3 +1,12 @@
 img {
     width: 100%;
 }
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    height: auto;
+    position: relative;
+}

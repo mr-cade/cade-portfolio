@@ -2,18 +2,26 @@ import React from "react";
 import "./style.css";
 
 function Card(props) {
-    return (
-      <div
-        className="card"
-        style={{
-          // backgroundImage: props.image ? `url(${props.image})` : "none"
-          
-        }}
-      >
+  return (
+    <div
+      className="card bg-light btn  stretched-link"
+      style={{
+        // backgroundImage: props.image ? `url(${props.image})` : "none"
+
+      }}
+    >
+      <div className="card-img-top">
         <a href={props.link}><img src={props.image}></img></a>
         {props.children}
       </div>
-    );
-  }
-  
-  export default Card;
+      <div className="card-body">
+        <div className="card-title">
+          <h5>{props.title}</h5>
+          <p>{props.description}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Card;

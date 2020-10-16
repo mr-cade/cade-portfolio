@@ -17,19 +17,39 @@ function Portfolio() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-4">
-            <Card image={covidScreen} link="https://mr-cade.github.io/covid-api/">
+            <Card
+              image={covidScreen}
+              link="https://mr-cade.github.io/covid-api/"
+              title="Covid Tracker"
+              description="Covid-19 statistics tracker with data visualizations. Data is refreshed from an API.">
             </Card>
           </Col>
           <Col size="md-4">
-            <Card image={quizScreen} link="https://mr-cade.github.io/js-quiz/">
+            <Card
+              image={quizScreen}
+              link="https://mr-cade.github.io/js-quiz/"
+              title="JavaScript Quiz"
+              description="A quiz about JavaScript, written in JavaScript. This app features a countdown timer and highscore tracker.">
+            </Card>
+          </Col>
+          <Col size="md-4">
+            <Card
+              image={pwScreen}
+              link="https://mr-cade.github.io/password-generator/"
+              title="Password Generator"
+              description="Simple password generation application. It builds a password of a specified length using your choice of character types.">
             </Card>
           </Col>
         </Row>
-        <Row>  
+        <Row>
         <Col size="md-4">
-            <Card image={pwScreen} link="https://mr-cade.github.io/password-generator/" >
+            <Card
+              image={pwScreen}
+              link="https://mr-cade.github.io/password-generator/"
+              title="Password Generator"
+              description="Simple password generation application. It builds a password of a specified length using your choice of character types.">
             </Card>
-        </Col>
+          </Col>
         </Row>
       </Container>
     </div>
