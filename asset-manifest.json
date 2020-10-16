@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cade-portfolio/static/css/main.94880349.chunk.css",
+    "main.js": "/cade-portfolio/static/js/main.b63a588b.chunk.js",
+    "main.js.map": "/cade-portfolio/static/js/main.b63a588b.chunk.js.map",
+    "runtime-main.js": "/cade-portfolio/static/js/runtime-main.d5fc3777.js",
+    "runtime-main.js.map": "/cade-portfolio/static/js/runtime-main.d5fc3777.js.map",
+    "static/js/2.2e3b3c9a.chunk.js": "/cade-portfolio/static/js/2.2e3b3c9a.chunk.js",
+    "static/js/2.2e3b3c9a.chunk.js.map": "/cade-portfolio/static/js/2.2e3b3c9a.chunk.js.map",
+    "index.html": "/cade-portfolio/index.html",
+    "precache-manifest.643b3c1965f61409304ba7e6d9d36daa.js": "/cade-portfolio/precache-manifest.643b3c1965f61409304ba7e6d9d36daa.js",
+    "service-worker.js": "/cade-portfolio/service-worker.js",
+    "static/css/main.94880349.chunk.css.map": "/cade-portfolio/static/css/main.94880349.chunk.css.map",
+    "static/js/2.2e3b3c9a.chunk.js.LICENSE.txt": "/cade-portfolio/static/js/2.2e3b3c9a.chunk.js.LICENSE.txt",
+    "static/media/IMG_0055.jpeg": "/cade-portfolio/static/media/IMG_0055.b86216a4.jpeg",
+    "static/media/covid.png": "/cade-portfolio/static/media/covid.ea8e0a00.png",
+    "static/media/day-planner.png": "/cade-portfolio/static/media/day-planner.a19c8274.png",
+    "static/media/js-quiz.png": "/cade-portfolio/static/media/js-quiz.b182f6d5.png",
+    "static/media/note-taker.png": "/cade-portfolio/static/media/note-taker.ebcdbb4f.png",
+    "static/media/pw-gen.png": "/cade-portfolio/static/media/pw-gen.4d660fd8.png",
+    "static/media/team-builder.png": "/cade-portfolio/static/media/team-builder.9ef3a9a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5fc3777.js",
+    "static/js/2.2e3b3c9a.chunk.js",
+    "static/css/main.94880349.chunk.css",
+    "static/js/main.b63a588b.chunk.js"
+  ]
+}
