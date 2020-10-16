@@ -1,14 +1,23 @@
 nav.navbar.navbar-default {
     margin-bottom: 0;
-    
   }
 
-nav {
+.navbar {
   height: auto;
   background-color: #5D585C;
+  color: white;
   width: 100%;
+  vertical-align: middle;
 }
 
 .navbar-brand {
   font-size: 50px;
 } 
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: white !important;
+}
+
+ul.nav li.active a {
+  color: white !important;
+}

@@ -8,12 +8,14 @@ import covidScreen from "../assets/images/covid.png";
 import quizScreen from "../assets/images/js-quiz.png";
 import pwScreen from "../assets/images/pw-gen.png";
 import teamBuilder from "../assets/images/team-builder.png"
+import noteTaker from "../assets/images/note-taker.png"
+import dayPlanner from "../assets/images/day-planner.png"
 
 function Portfolio() {
   return (
     <div>
-      <Hero>
-        <h1>Portfolio</h1>
+      <Hero backgroundImage="https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg">
+        
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
@@ -46,11 +48,27 @@ function Portfolio() {
           <Col size="md-4">
             <Card
               image={teamBuilder}
-              link="https://mr-cade.github.io/password-generator/"
+              link="https://github.com/mr-cade/template-engine"
               title="Team Builder"
               description="This application allows the user to build a team of managers, engineers and interns from the command line.">
             </Card>
-          </Col>          
+          </Col>
+          <Col size="md-4">
+            <Card
+              image={noteTaker}
+              link="https://let-us-take-notes.herokuapp.com/notes"
+              title="Notes"
+              description="Enables user to write, save and edit notes. This application is deployed on Heroku.">
+            </Card>
+          </Col>
+          <Col size="md-4">
+            <Card
+              image={dayPlanner}
+              link="https://mr-cade.github.io/day-planner/"
+              title="Planner"
+              description="Day planner application that dynamically changes formatting based on the time of day.">
+            </Card>
+          </Col>
         </Row>
       </Container>
     </div>

@@ -8,12 +8,12 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand text-white" to="/">
         Cade Petersen
       </Link>
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li className="nav-item ">
             <Link
               to="/"
               className={

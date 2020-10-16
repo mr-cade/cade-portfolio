@@ -12,11 +12,11 @@ function About() {
             <Hero backgroundImage="https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg">
 
             </Hero>
-            <Container style={{ marginTop: 30 }}>
+            {/* <Container style={{ marginTop: 30 }}> */}
                 <Row>
-                    <Card>
+                    {/* <Card> */}
                     <img src={mePic} class="profPic img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
-                    </Card>
+                    {/* </Card> */}
                     <Col size="md-4">
                         <div className="card bg-light">
                             <div className="card-body">
@@ -50,7 +50,7 @@ function About() {
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            {/* </Container> */}
         </div>
     );
 }

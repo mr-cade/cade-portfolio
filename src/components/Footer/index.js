@@ -4,7 +4,9 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-        <a  href="mailto:cadelpetersen@gmail.com"><p className="align-bottom text-black">cadelpetersen@gmail.com</p></a>
+     
+        <a  href="mailto:cadelpetersen@gmail.com"><p className="align-bottom text-white">cadelpetersen@gmail.com</p></a>
+        <p>&copy; 2020</p>
     </footer>
   );
 }
