@@ -25,12 +25,12 @@ function Portfolio() {
             </Card>
           </Col>
         </Row>
+        <Row>  
         <Col size="md-4">
-          <Row>  
             <Card image={pwScreen} link="https://mr-cade.github.io/password-generator/" >
             </Card>
-          </Row>
         </Col>
+        </Row>
       </Container>
     </div>
   );

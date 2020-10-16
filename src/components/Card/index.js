@@ -7,6 +7,7 @@ function Card(props) {
         className="card"
         style={{
           // backgroundImage: props.image ? `url(${props.image})` : "none"
+          
         }}
       >
         <a href={props.link}><img src={props.image}></img></a>
