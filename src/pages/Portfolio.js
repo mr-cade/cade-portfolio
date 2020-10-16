@@ -5,8 +5,9 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "../components/Card";
 import covidScreen from "../assets/images/covid.png";
-import quizScreen from "../assets/images/js-quiz.png"
-import pwScreen from "../assets/images/pw-gen.png"
+import quizScreen from "../assets/images/js-quiz.png";
+import pwScreen from "../assets/images/pw-gen.png";
+import teamBuilder from "../assets/images/team-builder.png"
 
 function Portfolio() {
   return (
@@ -42,14 +43,14 @@ function Portfolio() {
           </Col>
         </Row>
         <Row>
-        <Col size="md-4">
+          <Col size="md-4">
             <Card
-              image={pwScreen}
+              image={teamBuilder}
               link="https://mr-cade.github.io/password-generator/"
-              title="Password Generator"
-              description="Simple password generation application. It builds a password of a specified length using your choice of character types.">
+              title="Team Builder"
+              description="This application allows the user to build a team of managers, engineers and interns from the command line.">
             </Card>
-          </Col>
+          </Col>          
         </Row>
       </Container>
     </div>

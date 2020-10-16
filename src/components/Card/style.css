@@ -10,3 +10,7 @@ img {
     height: auto;
     position: relative;
 }
+
+.profPic {
+    width: 200px;
+}

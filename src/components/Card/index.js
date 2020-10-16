@@ -4,11 +4,7 @@ import "./style.css";
 function Card(props) {
   return (
     <div
-      className="card bg-light btn  stretched-link"
-      style={{
-        // backgroundImage: props.image ? `url(${props.image})` : "none"
-
-      }}
+      className="card bg-light btn stretched-link"
     >
       <div className="card-img-top">
         <a href={props.link}><img src={props.image}></img></a>
