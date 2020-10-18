@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import "./style.css";
+import resume from "../../assets/documents/Petersen_Cade_Resume.pdf"
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
@@ -34,15 +35,14 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/resume"
+            <a
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-              href="../../assets/documents/Petersen_Cade_Resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
             >
               Resume
-            </Link>
+              </a>
           </li>
           <li className="nav-item">
             <a
@@ -51,7 +51,7 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillGithub/>
+              <AiFillGithub />
             </a>
           </li>
           <li className="nav-item">
@@ -61,7 +61,7 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillLinkedin/>
+              <AiFillLinkedin />
             </a>
           </li>
         </ul>
