@@ -37,6 +37,9 @@ function Navbar() {
             <Link
               to="/resume"
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+              href="../../assets/documents/Petersen_Cade_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Link>
