@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cade-portfolio/precache-manifest.f94f8dd3a21714cc735c3a3807459d08.js"
+  "/cade-portfolio/precache-manifest.19642de3f3c07a092baeca1cbbc09221.js"
 );
 
 self.addEventListener('message', (event) => {
