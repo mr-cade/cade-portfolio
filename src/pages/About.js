@@ -10,15 +10,14 @@ function About() {
     return (
         <div>
             <Hero backgroundImage="https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg">
-
             </Hero>
             <Container style={{ marginTop: 30 }}>
                 <Row>
-                    <Card>
-                        <img src={mePic} className="profPic img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
+                    <Card >
+                        <img src={mePic} className="profPic" alt=""></img>
                     </Card>
                     <Col size="md-4">
-                        <div className="card bg-light">
+                        <div className="card bg-light" style={{ height: 500 }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Background</h4>
@@ -30,20 +29,19 @@ function About() {
                         </div>
                     </Col>
                     <Col size="md-4">
-                        <div className="card bg-light">
+                        <div className="card bg-light" style={{ height: 1000}}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Professional Experience</h4>
-
-                                    <h5><i className="fas fa-chart-line"></i> Comcast NBC Universal</h5>
-                                    <p >Out of college, I was recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
-                                    <p >My three rotations took me through the following roles:</p>
+                                    <h5>Comcast NBC Universal</h5>
+                                    <p>Out of college, I was recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
+                                    <p>My three rotations took me through the following roles:</p>
                                     <ul className="pl-5">
                                         <li>Comcast West Division Revenue Analyst -- Denver, CO</li>
                                         <li>NBC Universal First Run Syndication Financial Analysis -- New York, NY</li>
                                         <li>Comcast Corporate Headquarters Xfinity Home Product Analysis -- Philadelphia, PA</li>
                                     </ul>
-                                    <i className="fas fa-hand-holding-usd"></i><h5> sPower</h5>
+                                    <h5> sPower</h5>
                                     <p>After my time with Comcast, I took a job in Salt Lake with a solar development company as a treasury analyst. There I was primarily responsible for cash management. We managed to a relatively low cash balance of about $20MM</p>
                                 </div>
                             </div>
@@ -52,11 +50,10 @@ function About() {
                 </Row>
                 <Row>
                     <Col size="md-7">
-                        <div className="card bg-light">
+                        <div className="card bg-light mt-4" style={{ height: 500}}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Hobbies</h4>
-
                                     <h5>Ham Radio</h5>
                                     <p>I am a licensed amateur radio operator (ham radio). People use ham radio to talk across town, around the world, or even into space, all without the Internet or cell phones. It's fascinating, social, educational, and can be a lifeline during emergencies when other forms of communication are inoperable or unavailable.</p>
                                     <p>The part of the hobby that I find most interesting is experimenting with antennas and radios to try to make the longest distance contacts possible. I have made contact with all 50 states, and 12 countries from Australia to Argentina, and Mexico to Japan.</p>
