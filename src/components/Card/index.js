@@ -3,6 +3,7 @@ import "./style.css";
 
 function Card(props) {
   return (
+
     <div className="row">
       <div className="card bg-light btn stretched-link">
         <div className="card-body">
@@ -15,6 +16,19 @@ function Card(props) {
             <h5>{props.title}</h5>
             <p>{props.description}</p>
           </div>
+
+    <div
+      className="card bg-light btn stretched-link"
+    >
+      <div className="card-img-top">
+        <a href={props.link}><img src={props.image} alt={props.alt}></img></a>
+        {props.children}
+      </div>
+      <div className="card-body">
+        <div className="card-title">
+          <h5>{props.title}</h5>
+          <p>{props.description}</p>
+
         </div>
       </div>
     </div>

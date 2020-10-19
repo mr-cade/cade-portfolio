@@ -5,7 +5,10 @@ import { AiFillLinkedin } from "react-icons/ai";
 import "./style.css";
 import resume from "../../assets/documents/Petersen_Cade_Resume.pdf";
 
+
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+
+
 export default class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -17,6 +20,9 @@ export default class Navbar extends Component {
   toggleMenu() {
     this.setState({ menu: !this.state.menu });
   }
+
+
+=======
 
   render() {
     const show = this.state.menu ? "show" : "";
@@ -71,6 +77,7 @@ export default class Navbar extends Component {
                 rel="noopener noreferrer"
               >
                 Resume
+
               </a>
             </li>
             <li className="nav-item">
@@ -85,6 +92,8 @@ export default class Navbar extends Component {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
+=======
+
               </a>
             </li>
             <li className="nav-item">
@@ -94,6 +103,23 @@ export default class Navbar extends Component {
                     ? "nav-link active"
                     : "nav-link"
                 }
+
+
+                href="https://github.com/mr-cade"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className={
+                  window.location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+
                 href="https://www.linkedin.com/in/cadelpetersen/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,4 +132,8 @@ export default class Navbar extends Component {
       </nav>
     );
   }
+
 }
+
+}
+

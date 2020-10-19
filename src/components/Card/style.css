@@ -14,6 +14,12 @@ img {
   padding-bottom: 100%;
 }
 
+
 .profPic {
   width: 250px;
 }
+
+img.profPic {
+    width: 250px;
+}
+
