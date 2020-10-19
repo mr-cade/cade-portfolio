@@ -17,13 +17,13 @@ function About() {
                         <img src={mePic} className="profPic" alt=""></img>
                     </Card>
                     <Col size="md-4">
-                        <div className="card bg-light" style={{ height: 500 }}>
+                        <div className="card bg-light" style={{ height: 350 }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Background</h4>
 
                                     <p >I was born and raised north of Salt Lake City in Bountiful, UT. Growing up, I loved to learn, ski, play sports and play videogames with my friends. I was a student at Bountiful High School where I participated in student council. Following high school I attended BYU's Marriott School of Business and majored in Finance.</p>
-                                    <p >Shortly after graduating from college, I adopted a puppy who has become my best pal. He's half Bernese Mountain Dog, half Poodle, all bark and no bite.</p>
+            
                                 </div>
                             </div>
                         </div>
