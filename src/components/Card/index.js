@@ -7,7 +7,7 @@ function Card(props) {
       className="card bg-light btn stretched-link"
     >
       <div className="card-img-top">
-        <a href={props.link}><img src={props.image}></img></a>
+        <a href={props.link}><img src={props.image} alt={props.alt}></img></a>
         {props.children}
       </div>
       <div className="card-body">

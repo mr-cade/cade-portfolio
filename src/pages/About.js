@@ -12,11 +12,11 @@ function About() {
             <Hero backgroundImage="https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg">
 
             </Hero>
-            {/* <Container style={{ marginTop: 30 }}> */}
+            <Container style={{ marginTop: 30 }}>
                 <Row>
-                    {/* <Card> */}
-                    <img src={mePic} class="profPic img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
-                    {/* </Card> */}
+                    <Card>
+                        <img src={mePic} className="profPic img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
+                    </Card>
                     <Col size="md-4">
                         <div className="card bg-light">
                             <div className="card-body">
@@ -36,7 +36,7 @@ function About() {
                                     <h4>Professional Experience</h4>
                                 
                                     <h5><i className="fas fa-chart-line"></i> Comcast NBC Universal</h5>
-                                    <p >Out of college, I as recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
+                                    <p >Out of college, I was recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
                                     <p >My three rotations took me through the following roles:</p>
                                     <ul className="pl-5">
                                         <li>Comcast West Division Revenue Analyst -- Denver, CO</li>
@@ -50,7 +50,7 @@ function About() {
                         </div>
                     </Col>
                 </Row>
-            {/* </Container> */}
+            </Container>
         </div>
     );
 }
