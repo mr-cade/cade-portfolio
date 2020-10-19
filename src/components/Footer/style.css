@@ -4,31 +4,31 @@ background: #E5E5E5;
 position: relative;
 } */
 
-.footer span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3px;
-    background: #5D585C;
-}
+/* .footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #5d585c;
+} */
 
-body {
-    min-height: 100vh;
-    position: relative;
-    margin: 0;
-    padding-bottom: 100px; 
-    box-sizing: border-box;
-}
+/* body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+} */
 
 footer {
-    position: fixed;
-    padding-top: 1rem;
-    bottom: 0;
-    height: 6rem;
-    width: 100%;
-    background: #5D585C;
-    color: white;
-    font-size: 15px;
-    text-align: center;
+  /* position: fixed;
+  padding-top: 1rem;
+  bottom: 0;
+  height: 6rem; */
+  width: 100%;
+  background: #5d585c;
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }

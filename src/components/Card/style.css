@@ -1,5 +1,5 @@
 img {
-    width: 100%;
+  width: 100%;
 }
 
 /* .card-title {
@@ -7,11 +7,13 @@ img {
 } */
 
 .card {
-    height: 100%;
-    position: relative;
-    
+  height: 100%;
+  position: relative;
+  margin: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 100%;
 }
 
 .profPic {
-    width: 250px;
+  width: 250px;
 }
