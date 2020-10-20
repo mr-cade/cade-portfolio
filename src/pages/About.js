@@ -13,9 +13,9 @@ function About() {
             </Hero>
             <Container style={{ marginTop: 30 }}>
                 <Row>
-                    <Card >
-                        <img src={mePic} className="profPic" alt=""></img>
-                    </Card>
+                    <div  >
+                        <img style={{ width: 250 }} src={mePic} className="profPic" alt=""></img>
+                    </div>
                     <Col size="md-4">
                         <div className="card bg-light" style={{ height: 350 }}>
                             <div className="card-body">
@@ -29,7 +29,7 @@ function About() {
                         </div>
                     </Col>
                     <Col size="md-4">
-                    <div className="card bg-light" style={{ height: 850}}>
+                    <div className="card bg-light ml-4" style={{ height: 850}}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Hobbies</h4>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Covid-19 Tracking",
+        "img": "../images/covid.png",
+        "detail": "Covid-19 tracking with cases number, chart, news, map and basic information.",
+        "deployLink": "https://mr-cade.github.io/covid-api/",
+        "githubLink": "https://github.com/mr-cade/covid-api"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript Quiz",
+        "img": "../images/js-quiz.png",
+        "detail": "A quiz about JavaScript, written in JavaScript. This app features a countdown timer and highscore tracker.",
+        "deployLink": "https://mr-cade.github.io/js-quiz/",
+        "githubLink": "https://github.com/mr-cade/js-quiz"
+    },
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "img": "../images/pw-gen.png",
+        "detail": "Simple password generation application. It builds a password of a specified length using your choice of character types.",
+        "deployLink": "https://mr-cade.github.io/password-generator/",
+        "githubLink": "https://github.com/mr-cade/covid-api"
+    },
+    {
+        "id": 4,
+        "name": "Team Builder",
+        "img": "../images/team-builder.png",
+        "detail": "This application allows the user to build a team of managers, engineers and interns from the command line.",
+        "deployLink": "https://mr-cade.github.io/template-engine/",
+        "githubLink": "https://github.com/mr-cade/covid-api"
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "img": "../images/note-taker.png",
+        "detail": "Enables user to write, save and edit notes. This application is deployed on Heroku.",
+        "deployLink": "https://let-us-take-notes.herokuapp.com/notes",
+        "githubLink": "https://github.com/mr-cade/covid-api"
+    },
+    {
+        "id": 6,
+        "name": "Day Planner",
+        "img": "../images/day-planner.png",
+        "detail": "Day planner application that dynamically changes formatting based on the time of day.",
+        "deployLink": "https://mr-cade.github.io/day-planner/",
+        "githubLink": "https://github.com/mr-cade/covid-api"
+    }
+]
