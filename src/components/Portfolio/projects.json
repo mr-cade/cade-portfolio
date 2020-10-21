@@ -21,7 +21,7 @@
         "img": "../images/pw-gen.png",
         "detail": "Simple password generation application. It builds a password of a specified length using your choice of character types.",
         "deployLink": "https://mr-cade.github.io/password-generator/",
-        "githubLink": "https://github.com/mr-cade/covid-api"
+        "githubLink": "https://github.com/mr-cade/password-generator"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "img": "../images/team-builder.png",
         "detail": "This application allows the user to build a team of managers, engineers and interns from the command line.",
         "deployLink": "https://mr-cade.github.io/template-engine/",
-        "githubLink": "https://github.com/mr-cade/covid-api"
+        "githubLink": "https://github.com/mr-cade/template-engine"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "img": "../images/note-taker.png",
         "detail": "Enables user to write, save and edit notes. This application is deployed on Heroku.",
         "deployLink": "https://let-us-take-notes.herokuapp.com/notes",
-        "githubLink": "https://github.com/mr-cade/covid-api"
+        "githubLink": "https://github.com/mr-cade/notes"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "img": "../images/day-planner.png",
         "detail": "Day planner application that dynamically changes formatting based on the time of day.",
         "deployLink": "https://mr-cade.github.io/day-planner/",
-        "githubLink": "https://github.com/mr-cade/covid-api"
+        "githubLink": "https://github.com/mr-cade/dayplanner"
     }
 ]

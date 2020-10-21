@@ -1,16 +1,6 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Container from "../components/Container";
 import Row from "../components/Row";
-import Col from "../components/Col";
-import Card from "../components/Card";
 import Portfolio from "../components/Portfolio"
-import covidScreen from "../assets/images/covid.png";
-import quizScreen from "../assets/images/js-quiz.png";
-import pwScreen from "../assets/images/pw-gen.png";
-import teamBuilder from "../assets/images/team-builder.png"
-import noteTaker from "../assets/images/note-taker.png"
-import dayPlanner from "../assets/images/day-planner.png"
 
 function PortfolioPage() {
   return (

@@ -24,7 +24,7 @@ class Portfolio extends Component {
     render() {
         console.log(projects);
         return (
-            <div class="card-deck">
+            <div className="card-deck">
                 <h1>Portfolio</h1>
                 <div className="row">
                     {_.zip(this.state.projects, this.state.projectsImg).map((app) => (

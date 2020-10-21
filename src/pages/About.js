@@ -1,9 +1,7 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Card from "../components/Card";
 import mePic from "../assets/images/IMG_0055.jpeg"
 
 function About() {
