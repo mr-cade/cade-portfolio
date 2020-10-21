@@ -19,7 +19,7 @@ export default class Navbar extends Component {
   render() {
     const show = this.state.menu ? "show" : "";
     return (
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-md navbar-light">
         <Link className="navbar-brand text-white" to="/">
           Cade Petersen
         </Link>
