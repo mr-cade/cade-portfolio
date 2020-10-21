@@ -9,8 +9,6 @@ import mePic from "../assets/images/IMG_0055.jpeg"
 function About() {
     return (
         <div>
-            <Hero backgroundImage="https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg">
-            </Hero>
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <div  >
@@ -29,7 +27,7 @@ function About() {
                         </div>
                     </Col>
                     <Col size="md-4">
-                    <div className="card bg-light ml-4" style={{ height: 850}}>
+                    <div className="card bg-light ml-4" style={{ height: 950}}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Hobbies</h4>

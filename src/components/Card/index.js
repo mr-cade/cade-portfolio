@@ -1,27 +1,69 @@
 import React from "react";
+import "./style.css"
 // get react icons imports
 import { FaGithub, FaWindowMaximize } from "react-icons/fa";
 
 function Card(props) {
   return (
-    <div>
+    <div className="card">
+      <img className="card-img-top" src={props.img} alt=""></img>
+      <div className="card-body">
+        <h4 className="card-title">{props.name}</h4>
+        <p className="card-text">{props.detail}</p>
+        <a
+          className="btn-small"
+          href={props.deployLink}
+          style={{ marginTop: "10px", marginRight: "10px" }}
+        >
+          <FaWindowMaximize style={{ marginTop: "10px" }} />
+        </a>
+        <a
+          className="btn-small"
+          href={props.githubLink}
+          style={{ marginTop: "10px" }}
+        >
+          <FaGithub style={{ marginTop: "10px" }} />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Card;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div>
       <section
         className="container-section scrollspy"
         id="portfolio"
         style={{ margin: "20px" }}
       >
-        <div className="col s12 m3 l3">
+        <div className="col-4">
           <div className="card">
-            <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" alt="project's img" src={props.img} />
-            </div>
-            <div className="card-content" style={{ backgroundColor: "black" }}>
+            
+            <img className="card-img-top" alt="project's img" src={props.img} />
+            
+            <div className="card-content">
               <span
-                className="card-title activator white-text"
+                className="card-title"
                 style={{ fontSize: "20px" }}
               >
                 {props.name}
-                <i className="material-icons right">more_vert</i>
+                <i className="material-icons right"></i>
               </span>
               <p>
                 <a
@@ -56,14 +98,7 @@ function Card(props) {
           </div>
         </div>
       </section>
-    </div>
-  );
-}
-
-export default Card;
-
-
-
+    </div> */}
 
 
 
