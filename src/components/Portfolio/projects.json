@@ -37,7 +37,7 @@
         "img": "../images/note-taker.png",
         "detail": "Enables user to write, save and edit notes. This application is deployed on Heroku.",
         "deployLink": "https://let-us-take-notes.herokuapp.com/notes",
-        "githubLink": "https://github.com/mr-cade/notes"
+        "githubLink": "https://github.com/mr-cade/note-taker"
     },
     {
         "id": 6,
