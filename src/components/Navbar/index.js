@@ -19,8 +19,8 @@ export default class Navbar extends Component {
   render() {
     const show = this.state.menu ? "show" : "";
     return (
-      <nav className="navbar navbar-expand-md navbar-light">
-        <Link className="navbar-brand text-white" to="/">
+      <nav id="navbar" className="navbar navbar-expand-md navbar-light">
+        <Link style={{ background: "rgba(128, 128, 128, 0.75)"}} className="navbar-brand text-white" to="/">
           Cade Petersen
         </Link>
         <button
@@ -31,11 +31,13 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={"collapse navbar-collapse " + show}>
-          <ul className="navbar-nav">
-            <li className="nav-item ">
+          <ul id="links" className="navbar-nav">
+            <li className="nav-item text-light" >
               <Link
                 to="/"
+                style={{color: 'white'}}
                 className={
+                  
                   window.location.pathname === "/" ||
                   window.location.pathname === "/about"
                     ? "nav-link active"
@@ -48,6 +50,7 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 to="/portfolio"
+                style={{color: 'white'}}
                 className={
                   window.location.pathname === "/portfolio"
                     ? "nav-link active"
@@ -59,6 +62,7 @@ export default class Navbar extends Component {
             </li>
             <li className="nav-item">
               <a
+                style={{color: 'white'}}
                 className={
                   window.location.pathname === "/resume"
                     ? "nav-link active"
@@ -73,6 +77,7 @@ export default class Navbar extends Component {
             </li>
             <li className="nav-item">
               <a
+                style={{color: 'white'}}
                 className={
                   window.location.pathname === "/contact"
                     ? "nav-link active"
@@ -87,6 +92,7 @@ export default class Navbar extends Component {
             </li>
             <li className="nav-item">
               <a
+                style={{color: 'white'}}
                 className={
                   window.location.pathname === "/contact"
                     ? "nav-link active"

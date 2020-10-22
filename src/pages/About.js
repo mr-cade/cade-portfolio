@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import mePic from "../assets/images/IMG_0055.jpeg"
@@ -7,13 +6,13 @@ import mePic from "../assets/images/IMG_0055.jpeg"
 function About() {
     return (
         <div>
-            <Container style={{ marginTop: 30 }}>
+            {/* <Container style={{ marginTop: 30 }}> */}
                 <Row>
                     <div  >
-                        <img style={{ width: 250 }} src={mePic} className="profPic" alt=""></img>
+                        <img style={{ width: 250 }} src={mePic} className="profPic mt-4" alt=""></img>
                     </div>
                     <Col size="md-4">
-                        <div className="card bg-light" style={{ height: 350 }}>
+                        <div className="card bg-light mt-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Background</h4>
@@ -25,7 +24,7 @@ function About() {
                         </div>
                     </Col>
                     <Col size="md-4">
-                    <div className="card bg-light ml-4" style={{ height: 950}}>
+                    <div className="card bg-light ml-4 mt-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Hobbies</h4>
@@ -38,18 +37,15 @@ function About() {
                             </div>
                         </div>
                     </Col>
-                </Row>
-                <Row>
                     <Col size="md-7">
-
-                        <div className="card bg-light mt-4" style={{ height: 650}}>
+                        <div className="card bg-light mt-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Professional Experience</h4>
                                     <h5>Comcast NBC Universal</h5>
                                     <p>Out of college, I was recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
                                     <p>My three rotations took me through the following roles:</p>
-                                    <ul className="pl-5">
+                                    <ul className="pl-5 text-black">
                                         <li>Comcast West Division Revenue Analyst -- Denver, CO</li>
                                         <li>NBC Universal First Run Syndication Financial Analysis -- New York, NY</li>
                                         <li>Comcast Corporate Headquarters Xfinity Home Product Analysis -- Philadelphia, PA</li>
@@ -61,7 +57,7 @@ function About() {
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            {/* </Container> */}
         </div>
     );
 }

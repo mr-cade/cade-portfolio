@@ -2,6 +2,12 @@ nav.navbar.navbar-default {
     margin-bottom: 0;
   }
 
+#navbar {
+  background-image: url("https://c1.staticflickr.com/7/6019/6283399702_1f37edfd95_b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .navbar {
   height: auto;
   background-color: #5D585C;
@@ -14,11 +20,21 @@ nav.navbar.navbar-default {
 .navbar-brand {
   font-size: 50px;
 } 
-
+/* 
 ul.nav li a:hover, ul.nav li a:active {
   color: white !important;
 }
 
 ul.nav li.active a {
   color: white !important;
+} */
+
+#links {
+  background-color: rgba(128, 128, 128, 0.75);
+  color: white;
+  margin-left: 200px;
+}
+
+.nav-item {
+  color: white;
 }
