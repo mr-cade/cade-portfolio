@@ -23,22 +23,9 @@ function About() {
                             </div>
                         </div>
                     </Col>
-                    <Col size="md-4">
-                    <div className="card bg-light ml-4 mt-4" style={{ height: "auto" }}>
-                            <div className="card-body">
-                                <div className="card-title">
-                                    <h4>Hobbies</h4>
-                                    <h5>Ham Radio</h5>
-                                    <p>I am a licensed amateur radio operator (ham radio). People use ham radio to talk across town, around the world, or even into space, all without the Internet or cell phones. It's fascinating, social, educational, and can be a lifeline during emergencies when other forms of communication are inoperable or unavailable.</p>
-                                    <p>The part of the hobby that I find most interesting is experimenting with antennas and radios to try to make the longest distance contacts possible. I have made contact with all 50 states, and 12 countries from Australia to Argentina, and Mexico to Japan.</p>
-                                    <h5>Alpine Skiing</h5>
-                                    <p>My Dad taught me how to ski when I was three years old. Growing up in Utah, it was always an integral part of winter life. My favorite terrain is steep and deep powder, but when these conditions don't exist, you can find me on moguls or ocassionally trying to beat my personal top speed record of 72 mph.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col size="md-7">
-                        <div className="card bg-light mt-4" style={{ height: "auto" }}>
+                    <Row>
+                    <Col size="md-8">
+                    <div className="card bg-light mt-4 ml-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Professional Experience</h4>
@@ -52,6 +39,21 @@ function About() {
                                     </ul>
                                     <h5> sPower</h5>
                                     <p>After my time with Comcast, I took a job in Salt Lake with a solar development company as a treasury analyst. There I was primarily responsible for cash management. We managed to a relatively low cash balance of about $20MM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    </Row>
+                    <Col size="md-8">
+                    <div className="card bg-light ml-4 mt-4" style={{ height: "auto" }}>
+                            <div className="card-body">
+                                <div className="card-title">
+                                    <h4>Hobbies</h4>
+                                    <h5>Ham Radio</h5>
+                                    <p>I am a licensed amateur radio operator (ham radio). People use ham radio to talk across town, around the world, or even into space, all without the Internet or cell phones. It's fascinating, social, educational, and can be a lifeline during emergencies when other forms of communication are inoperable or unavailable.</p>
+                                    <p>The part of the hobby that I find most interesting is experimenting with antennas and radios to try to make the longest distance contacts possible. I have made contact with all 50 states, and 12 countries from Australia to Argentina, and Mexico to Japan.</p>
+                                    <h5>Alpine Skiing</h5>
+                                    <p>My Dad taught me how to ski when I was three years old. Growing up in Utah, it was always an integral part of winter life. My favorite terrain is steep and deep powder, but when these conditions don't exist, you can find me on moguls or ocassionally trying to beat my personal top speed record of 72 mph.</p>
                                 </div>
                             </div>
                         </div>

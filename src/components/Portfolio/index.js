@@ -25,7 +25,7 @@ class Portfolio extends Component {
     render() {
         console.log(projects);
         return (
-            <div className="text-center"><h1 >Portfolio</h1>
+            <div className="ml-4 text-center"><h1 >Portfolio</h1>
                 <div className="card-deck">
                     <Row>
                         <div className="col">
