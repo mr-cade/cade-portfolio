@@ -46,5 +46,13 @@
         "detail": "Day planner application that dynamically changes formatting based on the time of day.",
         "deployLink": "https://mr-cade.github.io/day-planner/",
         "githubLink": "https://github.com/mr-cade/dayplanner"
+    },
+    {
+        "id": 7,
+        "name": "Tangible Creativity",
+        "img": "../images/tangible-creativity.png",
+        "detail": "Customer-facing website for a craft studio based in Baltimore. Allows customers to book and pay for classes, sign up for the newsletter, and contact studio management.",
+        "deployLink": "https://salty-falls-58858.herokuapp.com/",
+        "githubLink": "https://github.com/AdmJeffery/Tangible-Creativity-Prototype"
     }
 ]
