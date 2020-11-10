@@ -9,6 +9,6 @@ function PortfolioPage() {
         <Portfolio>
         </Portfolio>
       </div>
-      </Row>
+    </Row>
   )}
 export default PortfolioPage
