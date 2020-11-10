@@ -9,6 +9,7 @@ import pwScreen from "../../assets/images/pw-gen.png";
 import teamBuilder from "../../assets/images/team-builder.png"
 import noteTaker from "../../assets/images/note-taker.png"
 import dayPlanner from "../../assets/images/day-planner.png"
+import tc from "../../assets/images/tangible-creativity.png"
 
 class Portfolio extends Component {
     state = {
@@ -20,6 +21,7 @@ class Portfolio extends Component {
             teamBuilder,
             noteTaker,
             dayPlanner,
+            tc
         ],
     };
     render() {
