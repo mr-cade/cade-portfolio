@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b750fbffc7ec966796643f2b8fc727f",
+    "revision": "c73a373ce9c7edae31d5ce9873bfc5e3",
     "url": "/cade-portfolio/index.html"
   },
   {
-    "revision": "2b5b726496b94e4bd1e1",
-    "url": "/cade-portfolio/static/css/main.e04aa0e0.chunk.css"
+    "revision": "3ace3d78227004634736",
+    "url": "/cade-portfolio/static/css/main.4f0cc37e.chunk.css"
   },
   {
-    "revision": "8bc0a88e6f6b75521415",
-    "url": "/cade-portfolio/static/js/2.049ce250.chunk.js"
+    "revision": "ba174aa67ec730b1405f",
+    "url": "/cade-portfolio/static/js/2.b185aebb.chunk.js"
   },
   {
     "revision": "64bea2e190f27355a76963b8cb94bb7b",
-    "url": "/cade-portfolio/static/js/2.049ce250.chunk.js.LICENSE.txt"
+    "url": "/cade-portfolio/static/js/2.b185aebb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b5b726496b94e4bd1e1",
-    "url": "/cade-portfolio/static/js/main.44ce8622.chunk.js"
+    "revision": "3ace3d78227004634736",
+    "url": "/cade-portfolio/static/js/main.5022d781.chunk.js"
   },
   {
     "revision": "e152cad8f54f844c57ee",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d660fd8d2af2b48ea5cf8b26d50f62b",
     "url": "/cade-portfolio/static/media/pw-gen.4d660fd8.png"
+  },
+  {
+    "revision": "a27e4bf64e6fc98b8e9190928bdcdf72",
+    "url": "/cade-portfolio/static/media/tangible-creativity.a27e4bf6.png"
   },
   {
     "revision": "9ef3a9a258a2efc63cb4ffb5387f4543",
