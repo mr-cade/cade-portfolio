@@ -20,7 +20,7 @@ export default class Navbar extends Component {
     const show = this.state.menu ? "show" : "";
     return (
       <nav id="navbar" className="navbar navbar-expand-md navbar-light">
-        <Link style={{ background: "rgba(128, 128, 128, 0.75)"}} className="navbar-brand text-white" to="/">
+        <Link style={{ background: "rgba(128, 128, 128, 0.75)"}} className="navbar-brand text-white ml-3" to="/">
           Cade Petersen
         </Link>
         <button

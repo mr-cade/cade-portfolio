@@ -9,9 +9,9 @@ function About() {
             {/* <Container style={{ marginTop: 30 }}> */}
                 <Row>
                     <div  >
-                        <img style={{ width: 250 }} src={mePic} className="profPic mt-4" alt=""></img>
+                        <img style={{ width: 250 }} src={mePic} className="profPic mt-4 ml-5 float-left" alt="profile of Cade with puppy"></img>
                     </div>
-                    <Col size="md-4">
+                    <Col size="md-5">
                         <div className="card bg-light mt-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
@@ -23,7 +23,6 @@ function About() {
                             </div>
                         </div>
                     </Col>
-                    <Row>
                     <Col size="md-8">
                     <div className="card bg-light mt-4 ml-4" style={{ height: "auto" }}>
                             <div className="card-body">
@@ -32,20 +31,20 @@ function About() {
                                     <h5>Comcast NBC Universal</h5>
                                     <p>Out of college, I was recruited to participate in a corporate finance rotational program through three divisions of Comcast NBC Universal, one of the world's largest telecom and media companies. This provided me with a great breadth of experience within corporate finance.</p>
                                     <p>My three rotations took me through the following roles:</p>
-                                    <ul className="pl-5 text-black">
+                                    <ul className="text-black">
                                         <li>Comcast West Division Revenue Analyst -- Denver, CO</li>
                                         <li>NBC Universal First Run Syndication Financial Analysis -- New York, NY</li>
                                         <li>Comcast Corporate Headquarters Xfinity Home Product Analysis -- Philadelphia, PA</li>
                                     </ul>
-                                    <h5> sPower</h5>
+                                    <h5>sPower</h5>
                                     <p>After my time with Comcast, I took a job in Salt Lake with a solar development company as a treasury analyst. There I was primarily responsible for cash management. We managed to a relatively low cash balance of about $20MM</p>
                                 </div>
                             </div>
                         </div>
                     </Col>
-                    </Row>
+                    
                     <Col size="md-8">
-                    <div className="card bg-light ml-4 mt-4" style={{ height: "auto" }}>
+                    <div className="card bg-light mt-4 ml-4 mb-4" style={{ height: "auto" }}>
                             <div className="card-body">
                                 <div className="card-title">
                                     <h4>Hobbies</h4>
