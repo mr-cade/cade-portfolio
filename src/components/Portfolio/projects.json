@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Covid-19 Tracking",
         "img": "../images/covid.png",
-        "detail": "Covid-19 tracking with cases number, chart, news, map and basic information.",
+        "detail": "Covid-19 tracking with case numbers, charts, news, map and basic information. An API is used to call the updated data",
         "deployLink": "https://mr-cade.github.io/covid-api/",
         "githubLink": "https://github.com/mr-cade/covid-api"
     },

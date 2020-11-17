@@ -33,31 +33,8 @@ class Portfolio extends Component {
                 <div className="card-deck">
                     <div className="col">
                         <div className="row">
-                            {_.zip(this.state.projects, this.state.projectsImg).slice(0,3).map((app) => (
-                                <Card
-                                    key={app[0].id}
-                                    name={app[0].name}
-                                    detail={app[0].detail}
-                                    img={app[1]}
-                                    deployLink={app[0].deployLink}
-                                    githubLink={app[0].githubLink}
-                                />
-                            ))}
-                        </div>
-                        <div className="row">
-                            {_.zip(this.state.projects, this.state.projectsImg).slice(4,7).map((app) => (
-                                <Card
-                                    key={app[0].id}
-                                    name={app[0].name}
-                                    detail={app[0].detail}
-                                    img={app[1]}
-                                    deployLink={app[0].deployLink}
-                                    githubLink={app[0].githubLink}
-                                />
-                            ))}
-                        </div>
-                        <div className="row">
-                            {_.zip(this.state.projects, this.state.projectsImg).slice(8,11).map((app) => (
+                            {_.zip(this.state.projects, this.state.projectsImg).slice(0, 3).map((app) => (
+
                                 <Card
                                     key={app[0].id}
                                     name={app[0].name}
@@ -69,8 +46,33 @@ class Portfolio extends Component {
                             ))}
                         </div>
                     </div>
+                    <div className="row">
+                        {_.zip(this.state.projects, this.state.projectsImg).slice(4, 7).map((app) => (
+                            <Card
+                                key={app[0].id}
+                                name={app[0].name}
+                                detail={app[0].detail}
+                                img={app[1]}
+                                deployLink={app[0].deployLink}
+                                githubLink={app[0].githubLink}
+                            />
+                        ))}
+                    </div>
+                    <div className="row">
+                        {_.zip(this.state.projects, this.state.projectsImg).slice(8, 11).map((app) => (
+                            <Card
+                                key={app[0].id}
+                                name={app[0].name}
+                                detail={app[0].detail}
+                                img={app[1]}
+                                deployLink={app[0].deployLink}
+                                githubLink={app[0].githubLink}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
+            // </div>
         );
     }
 }
