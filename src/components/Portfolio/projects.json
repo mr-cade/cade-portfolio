@@ -41,11 +41,11 @@
     },
     {
         "id": 6,
-        "name": "Day Planner",
-        "img": "../images/day-planner.png",
-        "detail": "Day planner application that dynamically changes formatting based on the time of day.",
-        "deployLink": "https://mr-cade.github.io/day-planner/",
-        "githubLink": "https://github.com/mr-cade/dayplanner"
+        "name": "Utah Amateur Radio Club",
+        "img": "../images/uarc.png",
+        "detail": "Rebuild of the Utah Amateur Radio Club website to give a more efficient and modern looking face to the organization. It is based on the Hugo framework.",
+        "deployLink": "https://mr-cade.github.io/uarc-rebuild/",
+        "githubLink": "https://github.com/mr-cade/uarc-rebuild"
     },
     {
         "id": 7,

@@ -2,6 +2,7 @@ import React from "react";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import mePic from "../assets/images/IMG_0055.jpeg"
+// import { FaTable } from "react-icons/fa";
 
 function About() {
     return (
