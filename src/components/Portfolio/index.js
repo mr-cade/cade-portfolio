@@ -9,6 +9,7 @@ import teamBuilder from "../../assets/images/team-builder.png"
 import noteTaker from "../../assets/images/note-taker.png"
 import dayPlanner from "../../assets/images/day-planner.png"
 import tc from "../../assets/images/tangible-creativity.png"
+import uarc from "../../assets/images/uarc.png"
 
 class Portfolio extends Component {
     state = {
@@ -20,7 +21,9 @@ class Portfolio extends Component {
             teamBuilder,
             noteTaker,
             dayPlanner,
-            tc
+            tc,
+            uarc,
+            uarc
         ],
     };
     render() {
@@ -43,6 +46,18 @@ class Portfolio extends Component {
                         </div>
                         <div className="row">
                             {_.zip(this.state.projects, this.state.projectsImg).slice(4,7).map((app) => (
+                                <Card
+                                    key={app[0].id}
+                                    name={app[0].name}
+                                    detail={app[0].detail}
+                                    img={app[1]}
+                                    deployLink={app[0].deployLink}
+                                    githubLink={app[0].githubLink}
+                                />
+                            ))}
+                        </div>
+                        <div className="row">
+                            {_.zip(this.state.projects, this.state.projectsImg).slice(8,11).map((app) => (
                                 <Card
                                     key={app[0].id}
                                     name={app[0].name}
