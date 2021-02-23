@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64983956fda3e910a4447369000a2be4",
+    "revision": "7594f04bf0dc6a9364a4a80f417e0d7c",
     "url": "/cade-portfolio/index.html"
   },
   {
-    "revision": "6c50672132a16dc0c58e",
+    "revision": "8052a4e33c0aa95e98ca",
     "url": "/cade-portfolio/static/css/main.4f0cc37e.chunk.css"
   },
   {
-    "revision": "8b951a102002c8ee2f20",
-    "url": "/cade-portfolio/static/js/2.6cb874ae.chunk.js"
+    "revision": "208abcc0e0347121416f",
+    "url": "/cade-portfolio/static/js/2.5c3ce54b.chunk.js"
   },
   {
     "revision": "64bea2e190f27355a76963b8cb94bb7b",
-    "url": "/cade-portfolio/static/js/2.6cb874ae.chunk.js.LICENSE.txt"
+    "url": "/cade-portfolio/static/js/2.5c3ce54b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c50672132a16dc0c58e",
-    "url": "/cade-portfolio/static/js/main.29efb738.chunk.js"
+    "revision": "8052a4e33c0aa95e98ca",
+    "url": "/cade-portfolio/static/js/main.966724ad.chunk.js"
   },
   {
     "revision": "e152cad8f54f844c57ee",
@@ -28,16 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cade-portfolio/static/media/IMG_0055.b86216a4.jpeg"
   },
   {
-    "revision": "9a28d056bb062d889ee4778772243522",
-    "url": "/cade-portfolio/static/media/Petersen_Cade_Resume.9a28d056.pdf"
+    "revision": "ac04c9ae513c109fd64c974d5da35a70",
+    "url": "/cade-portfolio/static/media/Petersen_Cade_Resume.ac04c9ae.pdf"
   },
   {
     "revision": "ea8e0a00ecf44a1df176b527504f818b",
     "url": "/cade-portfolio/static/media/covid.ea8e0a00.png"
-  },
-  {
-    "revision": "a19c8274fc163edd3caed852d9368a72",
-    "url": "/cade-portfolio/static/media/day-planner.a19c8274.png"
   },
   {
     "revision": "b182f6d5a6eb2557512b0caf250dda57",
