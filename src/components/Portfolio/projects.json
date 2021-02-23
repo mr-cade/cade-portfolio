@@ -41,14 +41,6 @@
     },
     {
         "id": 6,
-        "name": "Day Planner",
-        "img": "../images/day-planner.png",
-        "detail": "Day planner application that dynamically changes formatting based on the time of day.",
-        "deployLink": "https://mr-cade.github.io/day-planner/",
-        "githubLink": "https://github.com/mr-cade/dayplanner"
-    },
-    {
-        "id": 7,
         "name": "Tangible Creativity",
         "img": "../images/tangible-creativity.png",
         "detail": "Customer-facing website for a craft studio based in Baltimore. Allows customers to book and pay for classes, sign up for the newsletter, and contact studio management.",
@@ -56,18 +48,10 @@
         "githubLink": "https://github.com/AdmJeffery/Tangible-Creativity-Prototype"
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Utah Amateur Radio Club",
         "img": "../images/uarc.png",
         "detail": "Rebuild of the Utah Amateur Radio Club website to give a more efficient and modern looking face to the organization.",
-        "deployLink": "https://mr-cade.github.io/uarc-rebuild/",
-        "githubLink": "https://github.com/mr-cade/uarc-rebuild"
-    },
-    {
-        "id": 9,
-        "name": "Utah Amateur Radio Club",
-        "img": "../images/uarc.png",
-        "detail": "Rebuild of the Utah Amateur Radio Club website to give a more efficient and modern looking face to the organization. Built using the Hugo static website framework",
         "deployLink": "https://mr-cade.github.io/uarc-rebuild/",
         "githubLink": "https://github.com/mr-cade/uarc-rebuild"
     }
