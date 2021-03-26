@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
      
         <a  href="mailto:cadelpetersen@gmail.com"><p className="align-bottom text-white">cadelpetersen@gmail.com</p></a>
-        <p>&copy; 2020</p>
+        <p>&copy; 2021</p>
     </footer>
   );
 }
