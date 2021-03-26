@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7594f04bf0dc6a9364a4a80f417e0d7c",
+    "revision": "8811a946db5054751102984465a30298",
     "url": "/cade-portfolio/index.html"
   },
   {
-    "revision": "8052a4e33c0aa95e98ca",
+    "revision": "80c44205d9237d8fb983",
     "url": "/cade-portfolio/static/css/main.4f0cc37e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cade-portfolio/static/js/2.5c3ce54b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8052a4e33c0aa95e98ca",
-    "url": "/cade-portfolio/static/js/main.966724ad.chunk.js"
+    "revision": "80c44205d9237d8fb983",
+    "url": "/cade-portfolio/static/js/main.c863b639.chunk.js"
   },
   {
     "revision": "e152cad8f54f844c57ee",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cade-portfolio/static/media/team-builder.9ef3a9a2.png"
   },
   {
-    "revision": "9f67e70363778704d1bcf36b3cffbf50",
-    "url": "/cade-portfolio/static/media/uarc.9f67e703.png"
+    "revision": "c99f5c9f23ef747c46399da03a3ccd5e",
+    "url": "/cade-portfolio/static/media/uarc.c99f5c9f.png"
   }
 ]);
