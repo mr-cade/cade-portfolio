@@ -51,8 +51,8 @@
         "id": 7,
         "name": "Utah Amateur Radio Club",
         "img": "../images/uarc.png",
-        "detail": "Rebuild of the Utah Amateur Radio Club website to give a more efficient and modern looking face to the organization.",
-        "deployLink": "https://mr-cade.github.io/uarc-rebuild/",
-        "githubLink": "https://github.com/mr-cade/uarc-rebuild"
+        "detail": "Rebuild of the Utah Amateur Radio Club website to give a more efficient backend and modern looking face to the organization.",
+        "deployLink": "https://vast-temple-02120.herokuapp.com/",
+        "githubLink": "https://github.com/mr-cade/uarc-react"
     }
 ]
